@@ -132,8 +132,8 @@
     <xs:attribute type="xs:token" name="merk-cod" use="required"/> <!-- COMPONENT_MERK_COD -->
     <xs:attribute type="xs:dateTime" name="muokattu" use="required"/> <!-- UTS -->
     <xs:attribute type="xs:dateTime" name="luontiaika" use="required"/> <!-- CTS -->
-    <xs:attribute type="xs:dateTime" name="alkupvm" use="required"/> <!-- SDT -->
-    <xs:attribute type="xs:dateTime" name="loppupvm" use="required"/> <!-- EDT -->
+    <xs:attribute type="xs:date" name="alkupvm" use="required"/> <!-- SDT -->
+    <xs:attribute type="xs:date" name="loppupvm" use="required"/> <!-- EDT -->
   </xs:complexType>
 
   <!-- HaeTurvalaiteKomponentit -->
